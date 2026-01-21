@@ -154,7 +154,7 @@ input {
 }
 .container {
   @media (width<576px) {
-    padding: 0 20px;
+    padding: 0 12px;
   }
 }
 .buy-btn {
@@ -237,7 +237,7 @@ header {
     max-width: 100%;
     padding: 0 25px;
     @media (width<576px) {
-      padding: 0 20px;
+      padding: 0 12px;
     }
     .row {
       justify-content: space-between;
@@ -351,6 +351,8 @@ header {
               }
               @media (width<768px) {
                 width: 400px;
+                background-color: #fff;
+                padding: 15px 15px;
               }
               @media (width<576px) {
                 width: 300px;
@@ -488,7 +490,7 @@ header {
   @media (width<576px) {
     height: calc(100vh - 70px);
     margin-top: 70px;
-    padding: 0 20px 20px 20px;
+    padding: 0 12px 20px 12px;
   }
   .inner-banner {
     height: 100%;
@@ -760,7 +762,9 @@ header {
 }
 .ad-banner {
   padding: 0 25px;
-
+  @media (width<576px) {
+    padding: 0 12px;
+  }
   .adslider {
     border-radius: 20px;
     overflow: hidden;
